@@ -54,5 +54,26 @@
 
 * Set
     * HashSet
-        * 
+        * follows set property that is no duplicates allowed
+        * Set<Integer> set = new HashSet<>();
+        * set.add() - to add elements in the set
+        * prints in a random order.
+        * creates hash for each element in the set
+        * set.remove(element) - to remove element from the set
+        * set.contains(element) - tells if element is present in the set or not … return boolean
+        * set.isEmpty() - to know if currently set is empty or not…. returns boolean
+        * set.size() - tells the size or number of elements present in the set.
+        * set.clear() - to clear set i.e. remove all elements from the set.
+        * O(1)
+
+    * LinkedHashSet
+        * similar property as above
+        * order remains same as inserted in the form of a linked list.
+
+    * TreeSet
+        * does everything in sorted from
+        * Implementation over binary tree 
+        * ordered and sorted
+        * O(log n)
+
 
